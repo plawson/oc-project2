@@ -1,0 +1,27 @@
+[
+    {
+    "Classification":"spark",
+    "Properties": {
+    	"maximizeResourceAllocation":"true"
+    },
+    "Configurations":[]
+    },
+    {
+    "Classification": "spark-env",
+    "Configurations": [
+            {
+                "Classification": "export",
+                "Properties": {
+                    "PYSPARK_PYTHON": "/usr/bin/python3"
+                }
+            }
+        ]
+    },
+    {
+    "Classification": "spark-log4j",
+    "Properties": {
+        "log4j.rootCategory": "WARN, console"
+    },
+    "Configurations":[]
+    }
+]
